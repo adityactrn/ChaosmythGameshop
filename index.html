@@ -1,0 +1,467 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,iniial-scale=1.0">
+        <title>Chaosmyth Gameshop</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!-- Header Start -->
+
+        <header>
+            <a href="#" class="logo"><i class="fa fa-gamepad"></i> ChaosG</a>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#tournaments">Tournaments</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+            <div class="action">
+                <div class="search-box">
+                    <a href="#" i class="fa fa-search"></a>
+                    <input type="text" placeholder=" Search Games">
+                </div>
+            </div>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+        </header>
+
+        <!-- Header End -->
+
+
+        <!-- Home Start -->
+
+        <div class="home animeX" id="home">
+            <div class="bg">
+                <div class="content">
+                    <h2>Get Your Game On<br>
+                    With Our Collection</h2>
+                    <p>Level up your gaming experience today! Visit our Gameshop and embark on unforgettable adventures. Get ready to unleash your gaming prowess and become the ultimate gamer. Don't miss out—buy on this ChaosG now!
+                    </p>
+                <a href="#" class="button">Order Now</a>
+                </div>
+                <img src="images/home.png">
+            </div>
+        </div>
+
+        <!-- Home End -->
+
+
+        <!-- About Start -->
+
+        <div class="about animeX" id="about">
+            <div class="content-box">
+                <h2>About Us</h2>
+                <p>Welcome to The ChaosG, the ultimate one-stop shop for all your gaming needs! We are passionate about gaming and strive to provide great experiences for players of all skill levels and interests. Whether you're a casual gamer or an avid enthusiast, we've got everything you need for your gaming adventure.
+                    In our game shop you'll find the widest collection of the latest and greatest games for various platforms such as PC and consoles. We constantly update our inventory to give you access to the most popular new releases as soon as they hit the market. From action-packed shooters to addictive role-playing games, exciting sports titles to tricky puzzles, there's something for everyone.
+                    From AAA titles to indie games, we strive to provide an extensive selection that caters to both mainstream and niche gaming interests.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+            <img src="images/about.png">
+        </div>
+
+        <!-- About End -->
+
+
+        <!-- Games Start-->
+
+        <div class="games animeX" id="games">
+            <h2>Popular Games</h2>
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="console">Console Games</li>
+                <li class="list" data-filter="pc">PC Games</li>
+            </ul>
+                <div class="card-box">
+                    <div class="card" data-item="console">
+                        <img src="images/GT.jpg">
+                        <div class="content">
+                            <h4>Gran Turismo</h4>
+                            <div class="progress-line"><span></span></div>
+                            <div class="info">
+                                <p>Harga<br><span>Rp 500.000</span></p>
+                                <a href="#">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="card" data-item="console">
+                            <img src="images/RDR2.jpg">
+                            <div class="content">
+                                <h4>Red Dead Redemption</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 680.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="console">
+                            <img src="images/GOW.jpg">
+                            <div class="content">
+                                <h4>God of War</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 800.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="console">
+                            <img src="images/TLOU.jpg">
+                            <div class="content">
+                                <h4>The Last of Us</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 600.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="console">
+                            <img src="images/HZD.jpg">
+                            <div class="content">
+                                <h4>Horizon Zero Dawn</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 350.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="console">
+                            <img src="images/SPDR-MM.jpg">
+                            <div class="content">
+                                <h4>Spider-Man : Miles Morales</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 1.000.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="pc">
+                            <img src="images/Minecraft.jpg">
+                            <div class="content">
+                                <h4>Minecraft</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 150.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="pc">
+                            <img src="images/R6S.jpg">
+                            <div class="content">
+                                <h4>Rainbow Six Siege</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 300.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="pc">
+                            <img src="images/Phasmo.jpg">
+                            <div class="content">
+                                <h4>Phasmophobia</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 99.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="pc">
+                            <img src="images/FIFA23.jpg">
+                            <div class="content">
+                                <h4>FIFA 2023</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 850.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="pc">
+                            <img src="images/OW.jpg">
+                            <div class="content">
+                                <h4>Overwatch</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 500.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-item="pc">
+                            <img src="images/AOE4.jpg">
+                            <div class="content">
+                                <h4>Age of Empires 4</h4>
+                                <div class="progress-line"><span></span></div>
+                                <div class="info">
+                                    <p>Harga<br><span>Rp 200.000</span></p>
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+
+        <!-- Games End -->
+
+
+        <!-- Tournaments Start -->
+
+        <div class="tournaments animeX" id="tournaments">
+            <h2>Live Tournaments</h2>
+            <div class="tour-box">
+                <div class="box">
+                    <img src="images/tour1.jpg">
+                    <div class="content">
+                        <h4><span>10</span> Matches in Progress..</h4>
+                        <p>Dota 2, the ultimate battle arena, is a highly competitive and strategic
+                             multiplayer online battle arena (MOBA) game developed by Valve Corporation.
+                        </p>
+                        <div class="btn">
+                            <a href="#" class="watch">Watch</a>
+                            <a href="#" class="join">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/tour2.png">
+                    <div class="content">
+                        <h4><span>50</span> Matches in Progress</h4>
+                        <p>Valorant is an intense and tactical first-person shooter (FPS) game developed by Riot Games
+                            Set in a near-future Earth, Valorant pits two teams of five players.
+                        </p>
+                        <div class="btn">
+                            <a href="#" class="watch">Watch</a>
+                            <a href="#" class="join">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/tour3.jpg">
+                    <div class="content">
+                        <h4><span>23</span> Matches in Progress</h4>
+                        <p>CS:GO, the ultimate first-person shooter game that has captured the hearts of gamers worldwide.
+                             Step into a world of intense tactical combat and strategic teamwork.
+                        </p>
+                        <div class="btn">
+                            <a href="#" class="watch">Watch</a>
+                            <a href="#" class="join">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/tour4.jpg">
+                    <div class="content">
+                        <h4><span>4</span> Matches in Progress</h4>
+                        <p>Rocket League is an electrifying fusion of soccer that will have you on the edge of your seat. 
+                            Prepare for adrenaline-fueled as you dive into the world of Rocket League.
+                        </p>
+                        <div class="btn">
+                            <a href="#" class="watch">Watch</a>
+                            <a href="#" class="join">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/tour5.jpg">
+                    <div class="content">
+                        <h4><span>8</span> Matches in Progress</h4>
+                        <p>Overwatch is a highly acclaimed team-based multiplayer first-person shooter game
+                             set in a futuristic world developed and published by Blizzard Entertainment.
+                        <div class="btn">
+                            <a href="#" class="watch">Watch</a>
+                            <a href="#" class="join">Join</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/tour6.jpg">
+                    <div class="content">
+                        <h4><span>5</span> Matches in Progress</h4>
+                        <p>Rainbow Six Siege is an intense, tactical, unique and thrilling first-person shooter
+                            game that has taken the gaming world developed by Ubisoft
+                        </p>
+                        <div class="btn">
+                            <a href="#" class="watch">Watch</a>
+                            <a href="#" class="join">Join</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tournaments End -->
+
+
+        <!-- Order Start -->
+
+        <form method="post" action="order.php">
+        <div class="order animeX"  id="order">
+            <img src="images/order.png">
+            <div class="form">
+                <h1>Order Now</h1>
+                <div class="input-box">
+                    <p>Enter Name</p>
+                    <input type="text" name="name" placeholder="Name">
+                </div>
+                <div class="input-box">
+                    <p>Enter Email</p>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <p>Enter Phone Number</p>
+                    <input type="text" name="phone" placeholder="Phone Number">
+                </div>
+                <div class="input-box">
+                    <p>Enter Game Name</p>
+                    <input type="text" name="game" placeholder="Game Name">
+                </div>
+                <div class="input-box">
+                    <p>Enter Quantity</p>
+                    <input type="number" name="quantity" placeholder="Quantity">
+                </div>
+                <div class="input-box">
+                    <p>Enter Address</p>
+                   <textarea placeholder="address.." name="address"></textarea>
+                </div>
+                <div class="input-box">
+                    <input type="submit" name="submit">
+                </div>
+            </div>
+        </div>
+        </form>
+
+        <!-- Order End -->
+
+
+        <!-- Footer Start -->
+
+          <footer>
+            <div class="container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>The Chaosmyth Gameshop is a game-stop that sell the widest
+                     collection of the latest and greatest games for various platforms such as PC and consoles.
+                    </p>
+                    <ul class="sci">
+                        <li><a href="..."><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="..."><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="..."><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="..."><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quickLinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec contact">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span>Jl.Subandi Pabuaran Residence<br>
+                            Tangerang PA 15150<br>Indonesia</span>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                           <p><a href="tel:6281291604975">+6281291604975</a></p>
+                        </li>
+                        <li>
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <p><a href="mailto:adityacn1398@gmail.com">adityacn1398@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </footer>
+          <div class="copyrightText">
+            <p>Copyright &copy; 2023 Adityactrn. All Rights Reserved</p>
+          </div>
+
+          <!-- Footer End -->
+      
+
+        <script>
+
+            /* Sticky NavBar */
+
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+
+            /* Scrolling Animation Effects */
+
+            window.addEventListener('scroll',function(){
+                var anime = document.querySelectorAll('.animeX');
+
+                for(var s = 0; s < anime.length; s++){
+                    var windowheight = window.innerHeight;
+                    var animetop = anime[s].getBoundingClientRect().top;
+                    var animepoint = 150;
+
+                    if(animetop < windowheight - animepoint){
+                        anime[s].classList.add('active');
+                    }
+                    else{
+                        anime[s].classList.remove('active');
+                    }
+                }
+            })
+
+
+            /* Responsive NavBar */
+
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('.toggleMenu');
+                const nav = document.querySelector('.nav');
+                toggleMenu.classList.toggle('active')
+                nav.classList.toggle('active')
+            }
+
+            /* Filterable Games */
+
+            let list = document.querySelectorAll('.list');
+            let card = document.querySelectorAll('.card');
+
+            for(let i=0; i<list.length; i++){
+                list[i].addEventListener('click',function(){
+                    for(let j=0; j<list.length; j++){
+                        list[j].classList.remove('active');
+                    }
+                    this.classList.add('active');
+
+                    let dataFilter = this.getAttribute('data-filter');
+
+                    for(let k=0; k<card.length; k++)
+                    {
+                        card[k].classList.remove('active');
+                        card[k].classList.add('hide');
+
+                        if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                            card[k].classList.remove('hide');
+                            card[k].classList.add('active');
+                        }
+                    }
+                })
+            }
+
+        </script>
+    </body>
+</html>
